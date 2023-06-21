@@ -40,7 +40,7 @@ const Project = ({ title }) => {
 
 const Projects = () => {
   return (
-    <section id="projects" classname="pt-48 pb-48">
+    <section id="projects" className="pt-48 pb-48">
       {/* headings */}
       <motion.div
         className="md:w-2/5 mx-auto text-center"
@@ -58,7 +58,7 @@ const Projects = () => {
             My <span className="text-red">PRO</span>JECTS
           </p>
           <div className="flex justify-center mt-5">
-            <LineGradient width="w-1/3"/>
+            <LineGradient />
           </div>
         </div>
         <p className="mt-10 mb-10">
