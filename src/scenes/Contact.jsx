@@ -34,7 +34,7 @@ const Contact = () => {
           <p className="font-playfair font-semibold text-4xl">
             <span className="text-yellow">CONTACT ME</span>
           </p>
-          <div className="flex md:justify-end my-5">
+          <div className="flex justify-end my-5">
             <LineGradient width="w-1/2"/>
           </div>
         </div>
@@ -90,7 +90,7 @@ const Contact = () => {
             )}
 
             <input
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3"
+              className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-2"
               type="text"
               placeholder="EMAIL"
               {...register("email", {
@@ -122,14 +122,15 @@ const Contact = () => {
                 {errors.message.type === 'maxLength' && "Max Length is 2000 characters."}
               </p>
             )}
-
-            <button
-              className="bg-yellow font-semibold text-deep-blue hover:bg-red p-5 mt-5
-                hover:text-white transition duration-500"
-              type="submit"
-            >
-              Send me a message
-            </button>
+            <div className="flex justify-center md:justify-start">
+              <button
+                className="bg-yellow font-semibold text-deep-blue hover:bg-red p-5 mt-5
+                  hover:text-white transition duration-500"
+                type="submit"
+              >
+                Send me a message
+              </button>
+            </div>
           </form>
         </motion.div>
       </div>
