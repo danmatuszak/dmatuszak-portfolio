@@ -6,6 +6,8 @@ import Landing from './scenes/Landing';
 import MySkills from './scenes/MySkills';
 import Projects from './scenes/Projects';
 import Testimonials from './scenes/Testimonials';
+import Contact from './scenes/Contact';
+import Footer from './scenes/Footer';
 import LineGradient from './components/LineGradient';
 
 function App() {
@@ -50,6 +52,11 @@ function App() {
       <div className="w-5/6 mx-auto md:h-full">
         <Testimonials />
       </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full">
+        <Contact />
+      </div>
+      <Footer />
     </div>
   );
 }
