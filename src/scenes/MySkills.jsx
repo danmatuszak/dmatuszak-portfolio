@@ -29,7 +29,6 @@ const MySkills = () => {
             Cypress, Microservices, HTML, CSS, Next.js, TailwindCSS,  PostgreSQL,
             GraphQL, RESTful APIs, Performance, Accessibility
           </p>
-
         </motion.div>
 
         <div className="mt-16 md:mt-0">
@@ -71,12 +70,12 @@ const MySkills = () => {
               </p>
               <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]"/>
             </div>
-            <p className="mt-5">
-              A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-              morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-              odio sit sagittis,
-            </p>
           </div>
+          <p className="mt-12">
+            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
+            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
+            odio sit sagittis,
+          </p>
         </motion.div>
 
         {/* innovative */}
@@ -99,13 +98,13 @@ const MySkills = () => {
               </p>
               <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]"/>
             </div>
-            <p className="mt-5">
-              Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
-              amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
-              nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
-              faucibus a
-            </p>
           </div>
+          <p className="mt-12">
+            Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
+            amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
+            nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
+            faucibus a
+          </p>
         </motion.div>
 
         {/* imaginative */}
@@ -128,13 +127,13 @@ const MySkills = () => {
               </p>
               <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]"/>
             </div>
-            <p className="mt-5">
-              Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
-              curabitur. Lectus libero, egestas enim aliquam quis felis amet.
-              Sagittis, amet netus fringilla netus lobortis odio sed platea.
-              Bibendum.
-            </p>
           </div>
+          <p className="mt-12">
+            Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
+            curabitur. Lectus libero, egestas enim aliquam quis felis amet.
+            Sagittis, amet netus fringilla netus lobortis odio sed platea.
+            Bibendum.
+          </p>
         </motion.div>
       </div>
     </section>
