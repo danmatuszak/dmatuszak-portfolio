@@ -70,7 +70,7 @@ const Projects = () => {
 
       {/* projects */}
       <div className="flex justify-center">
-        <motion.div
+        {/** <motion.div
           className="sm:grid sm:grid-cols-3"
           initial="hidden"
           whileInView="visible"
@@ -86,11 +86,11 @@ const Projects = () => {
           <Project title="Project 1"/>
           <Project title="Project 2"/>
 
-          {/* row 2 */}
+          
           <Project title="Project 3"/>
           <Project title="Project 4"/>
           <Project title="Project 5"/>
-          {/* row 3 */}
+          
           <Project title="Project 6"/>
           <Project title="Project 7"/>
           <div
@@ -99,7 +99,28 @@ const Projects = () => {
           >
             SMOOTH USER INTERFACES
           </div>
-        </motion.div>
+        </motion.div> */}
+        <div class="project-container">
+          <div class="project">
+            <div class="project-content">
+              <div class="project-label">Featured Project</div>
+              <h4 class="project-title">Ethereum Options Price History</h4>
+              <div class="project-details">
+                <p>A web app for visualizing Lyra Finance options pricing. Look at the historical price of the selected option market to gain more insights on an option.</p>
+                <ul>
+                  <li>React</li>
+                  <li>TypeScript</li>
+                  <li>GraphQL</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="project-img">
+              <img src="https://cdn.vox-cdn.com/thumbor/w-IFN0FWpN4BGfhZaV9EYqs4nLo=/51x0:977x617/1200x800/filters:focal(51x0:977x617)/cdn.vox-cdn.com/uploads/chorus_image/image/50017015/Screen_Shot_2016-07-04_at_12.37.15_PM.0.0.png" alt="" />
+            </div>
+            
+          </div>
+        </div>
       </div>
     </section>
   )
