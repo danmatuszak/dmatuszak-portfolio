@@ -12,6 +12,17 @@ module.exports = {
         "deep-blue": "#010026",
         "dark-grey": '#757575',
         "opaque-black": "rgba(0,0,0,0.35)",
+        mintgreen: {
+          100: "#e0fff8",
+          200: "#c1fff0",
+          300: "#a2ffe9",
+          400: "#83ffe1",
+          500: "#64ffda",
+          600: "#50ccae",
+          700: "#3c9983",
+          800: "#286657",
+          900: "#14332c",
+        },
       },
       backgroundImage: (theme) => ({ // set background gradient here
         "gradient-rainbow": 
