@@ -55,7 +55,7 @@ const Projects = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            My <span className="text-red">PRO</span>JECTS
+            My <span className="text-mintgreen-500">PRO</span>JECTS
           </p>
           <div className="flex justify-center mt-5">
             <LineGradient />
