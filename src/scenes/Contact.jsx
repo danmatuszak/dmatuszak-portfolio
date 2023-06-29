@@ -32,7 +32,7 @@ const Contact = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            <span className="text-yellow">CONTACT ME</span>
+            <span className="text-mintgreen-500">CONTACT ME</span>
           </p>
           <div className="flex justify-end my-5">
             <LineGradient width="w-1/2"/>
@@ -124,7 +124,7 @@ const Contact = () => {
             )}
             <div className="flex justify-center md:justify-start">
               <button
-                className="bg-yellow font-semibold text-deep-blue hover:bg-red p-5 mt-5
+                className="bg-mintgreen-500 font-semibold text-deep-blue hover:bg-red p-5 mt-5
                   hover:text-white transition duration-500"
                 type="submit"
               >

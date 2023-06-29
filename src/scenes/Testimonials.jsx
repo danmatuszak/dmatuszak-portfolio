@@ -51,7 +51,7 @@ const Testimonials = () => {
         </motion.div>
 
         <motion.div
-          className={`bg-red ${testimonialStyles} before:content-person2`}
+          className={`bg-mintgreen-500 ${testimonialStyles} before:content-person2`}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
