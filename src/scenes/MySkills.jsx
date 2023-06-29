@@ -96,7 +96,7 @@ const MySkills = () => {
               <p className="font-playfair font-semibold text-3xl mt-3">
                 Innovative
               </p>
-              <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]"/>
+              <div className="w-1/2 md:w-3/4 h-32 bg-mintgreen-500 absolute right-0 top-0 z-[-1]"/>
             </div>
           </div>
           <p className="mt-12">
